@@ -1,12 +1,15 @@
+/*
 * {
     overflow:auto;
 }
+*/
 body {
     background-color: #8BA1BB;
     font-family: Arial;
     margin: 0;
 }
 p.category{
+    overflow:auto;
     background-color: black;
     color: white;
     display: inline-block;
@@ -27,6 +30,7 @@ div.category{
 }
 
 div.content{
+    overflow:auto;
     background-color: white;
     margin: 6% 60px;
     padding: 0 20px 20px 20px;
